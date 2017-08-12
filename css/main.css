@@ -72,16 +72,16 @@ hr.small {
 }
 
 ::-moz-selection {
-  /*color: white;*/
+  color: white;
   text-shadow: none;
   /*background: #0085a1;*/
-  background: #FFD100;
+  background: #3390ff;
 }
 ::selection {
-  /*color: white;*/
+  color: white;
   text-shadow: none;
   /*background: #0085a1;*/
-  background: #FFD100;
+  background: #3390ff;
 }
 img::selection {
   color: white;
@@ -422,6 +422,23 @@ footer .theme-by {
   }
 }
 
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  color: black;
+  background-color: #ffd100;
+  border: 0px solid #ddd;
+  border-radius: 15px;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
 /* --- Tags --- */
 
 .blog-tags {
@@ -627,9 +644,9 @@ footer .theme-by {
   font-weight: 800;
   letter-spacing: 1px;
   padding: 10px 5px;
-  background: #FFF;
-  border-radius: 0;
-  color: #404040;
+  background: #ffd100;
+  border-radius: 0px;
+  color: black;
 }
 @media only screen and (min-width: 768px) {
   .pager li a {
@@ -639,8 +656,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: black;
+  border: 0px solid #0085a1;
 }
 
 .pager {
