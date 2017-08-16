@@ -5,7 +5,7 @@
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "http://www.designingcircuits.com/"
-baseurl: ""
+baseurl: 
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -23,10 +23,10 @@ description: One Transistor at a Time
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "aboutme"
-  Blog: "archive"
-  Projects: "aboutme"
-  Resources: "aboutme"
+  Home: "/designingcircuits"
+  Blog: "blog"
+  Circuits: "circuits"
+  Resources: "resources"
   About Me: "aboutme"
 
 
@@ -131,7 +131,7 @@ defaults:
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # all files
@@ -154,6 +154,7 @@ exclude:
   - Vagrantfile
 
 # prose.io config
+
 prose:
   rooturl: '_posts'
   media: 'img'

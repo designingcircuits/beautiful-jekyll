@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Blog Archive
-permalink: /archive/
+title: Blog Posts
+subtitle: Coming Soon
 ---
-
+<!--
 <section class="archive-post-list">
 
    {% for post in site.posts %}
@@ -18,4 +18,4 @@ permalink: /archive/
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
 
-</section>
+</section> -->
