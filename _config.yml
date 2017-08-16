@@ -24,7 +24,7 @@ description: One Transistor at a Time
 # List of links in the navigation bar
 navbar-links:
   Home: "aboutme"
-  Blog: "aboutme"
+  Blog: "archive"
   Projects: "aboutme"
   Resources: "aboutme"
   About Me: "aboutme"
