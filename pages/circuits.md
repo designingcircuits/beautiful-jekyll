@@ -2,6 +2,7 @@
 layout: page
 title: Circuits
 subtitle: Coming Soon
+permalink: /circuits/
 ---
 <!-- A collection of circuit projects I have worked on either through school or personal time.
 Most of my projects revolve around analog IC and power electronics.

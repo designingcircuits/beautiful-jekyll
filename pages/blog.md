@@ -1,21 +1,24 @@
 ---
 layout: page
 title: Blog Posts
-subtitle: Coming Soon
+subtitle:
+use-site-title: true
+permalink: /blog/
 ---
-<!--
+
 <section class="archive-post-list">
 
    {% for post in site.posts %}
        {% assign currentDate = post.date | date: "%Y" %}
        {% if currentDate != myDate %}
            {% unless forloop.first %}</ul>{% endunless %}
-           <h1>{{ currentDate }}</h1>
+           <h1 class="fix">{{ currentDate }}</h1>
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}
-       <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.title }}</a></li>
+       <li class="fix"><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d" }}</span> - {{ post.title }}</a>: {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+       </li>
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
 
-</section> -->
+</section>
