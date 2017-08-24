@@ -113,6 +113,15 @@ img {
 .fix {
   color: black;
 }
+.fa-ul{
+ margin-left: 3.5em;
+ margin-bottom: 3.5em;
+}
+.fa-ul i{
+  color: black;
+}
+
+
 /* --- Navbar --- */
 /*.navbar {
   position: relative;
