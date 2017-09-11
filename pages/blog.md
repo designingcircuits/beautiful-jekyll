@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Blog Posts
-subtitle:
 use-site-title: true
 permalink: /blog/
 ---
@@ -16,7 +15,8 @@ permalink: /blog/
            <ul>
            {% assign myDate = currentDate %}
        {% endif %}
-       <li class="fix"><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d" }}</span> - {{ post.title }}</a>: {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
+       <li class="fix"><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d" }}</span> - {{ post.title }}</a>
+       <!-- : {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }} -->
        </li>
        {% if forloop.last %}</ul>{% endif %}
    {% endfor %}

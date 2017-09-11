@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 subtitle: I live and die by Chipotle (and Circuits)
+use-site-title: true
 permalink: /aboutme/
 ---
 
@@ -35,7 +36,7 @@ permalink: /aboutme/
   </p></li>
 
   <li><i class="fa-li fa fa-file-text-o fa-2x"></i><p>
-  I like to spend my free time working on various circuit projects and updating my <a href="/blog/"><strong>blog</strong></a> and <a href="/circuits/"><strong>circuits</strong></a> pages. These are good places to view my interests and work, but you can also view my <a href="">resume</a>.
+  I like to spend my free time working on various circuit projects and updating my <a href="/blog/"><strong>blog</strong></a> and <a href="/circuits/"><strong>circuits</strong></a> pages. These are good places to view my interests and work, but you can also view my <a href="/resume.pdf">resume</a>.
   </p></li>
 
 </ul>
@@ -45,7 +46,7 @@ permalink: /aboutme/
 <h1 class="fix">Contact</h1>
 
 If you have any further questions or have feedback on how improve
-the site, please contact me at designingcircuits@gmail.com
+the site, please contact me at <a href="mailto:designingcircuits@gmail.com">designingcircuits@gmail.com</a>
 
 I would be very glad to read and to respond to all comments, and
 thank you for your interest!
